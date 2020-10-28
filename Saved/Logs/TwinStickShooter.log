@@ -1,8 +1,8 @@
-﻿Log file open, 10/28/20 16:55:35
+﻿Log file open, 10/28/20 17:14:19
 LogInit: Display: Running engine for game: TwinStickShooter
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.218216
+LogStats: Stats thread started at 0.226855
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -195,490 +195,569 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.28-20.55.36:507][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.28-20.55.36:508][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:508][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:510][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.28-20.55.36:510][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.28-20.55.36:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.28-20.55.36:512][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.28-20.55.36:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.28-20.55.36:512][  0]LogHAL: Display: Platform has ~ 8 GB [8472018944 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.28-20.55.36:512][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.28-20.55.36:512][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.28-20.55.36:512][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.28-20.55.36:513][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.28-20.55.36:514][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
-[2020.10.28-20.55.36:514][  0]LogInit: Computer: DESKTOP-J0AMKS7
-[2020.10.28-20.55.36:514][  0]LogInit: User: Subhana
-[2020.10.28-20.55.36:514][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.10.28-20.55.36:514][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.28-20.55.36:514][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.10.28-20.55.36:514][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.28-20.55.36:514][  0]LogMemory: Process Physical Memory: 113.12 MB used, 113.12 MB peak
-[2020.10.28-20.55.36:514][  0]LogMemory: Process Virtual Memory: 95.13 MB used, 95.13 MB peak
-[2020.10.28-20.55.36:514][  0]LogMemory: Physical Memory: 5791.25 MB used,  2288.30 MB free, 8079.55 MB total
-[2020.10.28-20.55.36:514][  0]LogMemory: Virtual Memory: 5126.78 MB used,  134212600.00 MB free, 134217728.00 MB total
-[2020.10.28-20.55.36:520][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.28-20.55.36:553][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.28-20.55.36:554][  0]LogInit: Using OS detected language (en-US).
-[2020.10.28-20.55.36:554][  0]LogInit: Using OS detected locale (en-US).
-[2020.10.28-20.55.36:559][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.10.28-20.55.36:783][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.28-20.55.36:817][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.28-20.55.36:817][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.28-20.55.36:978][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.28-20.55.36:978][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.28-20.55.36:978][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.28-20.55.36:978][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.28-20.55.36:984][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 11_0)
-[2020.10.28-20.55.36:984][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.10.28-20.55.36:987][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.28-20.55.36:987][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.28-20.55.36:987][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.28-20.55.36:994][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.28-20.55.36:994][  0]LogD3D11RHI:     GPU DeviceId: 0x152 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.28-20.55.36:994][  0]LogWindows: EnumDisplayDevices:
-[2020.10.28-20.55.36:994][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
-[2020.10.28-20.55.36:995][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
-[2020.10.28-20.55.36:995][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2020.10.28-20.55.36:995][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
-[2020.10.28-20.55.36:995][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
-[2020.10.28-20.55.36:995][  0]LogD3D11RHI:      Driver Date: 12-21-2015
-[2020.10.28-20.55.36:995][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
-[2020.10.28-20.55.37:000][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.10.28-20.55.37:000][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.28-20.55.37:006][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2020.10.28-20.55.37:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.28-20.55.37:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.28-20.55.37:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.28-20.55.37:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.28-20.55.37:457][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.28-20.55.37:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.28-20.55.37:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.28-20.55.37:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.28-20.55.37:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.28-20.55.37:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.28-20.55.37:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.28-20.55.37:560][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.28-20.55.37:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.28-20.55.37:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.28-20.55.37:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.28-20.55.37:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.28-20.55.37:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.28-20.55.37:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.28-20.55.37:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.28-20.55.37:628][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.28-20.55.37:635][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.28-20.55.37:705][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../cool/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/8772/).
-[2020.10.28-20.55.37:705][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Subhana/AppData/Local/Temp/UnrealShaderWorkingDir/C63427344EEE50D0DEBC5DB5E8E6BBD7/'.
-[2020.10.28-20.55.37:706][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.28-20.55.37:706][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.28-20.55.37:706][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.28-20.55.38:647][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.28-20.55.38:720][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Subhana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.28-20.55.38:721][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Subhana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.28-20.55.38:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../cool/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.28-20.55.38:721][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.28-20.55.38:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../cool/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.28-20.55.38:721][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.28-20.55.38:733][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.28-20.55.38:733][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.28-20.55.38:733][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.28-20.55.38:735][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Subhana/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.28-20.55.38:735][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.28-20.55.38:735][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.28-20.55.38:803][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.28-20.55.38:804][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.28-20.55.38:836][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2020.10.28-20.55.39:148][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.28-20.55.39:285][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.28-20.55.39:285][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.28-20.55.39:285][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.28-20.55.39:285][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.28-20.55.39:285][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.28-20.55.39:303][  0]LogNetVersion: TwinStickShooter 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 395143884)
-[2020.10.28-20.55.39:876][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D949470380), frame # 0
-[2020.10.28-20.55.39:876][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D9493BEAC0), frame # 0
-[2020.10.28-20.55.39:878][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D949428A00), frame # 0
-[2020.10.28-20.55.39:950][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.064572 seconds
-[2020.10.28-20.55.39:956][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.28-20.55.39:956][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.28-20.55.39:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.28-20.55.40:356][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.28-20.55.40:362][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.28-20.55.40:469][  0]SourceControl: Source control is disabled
-[2020.10.28-20.55.40:469][  0]SourceControl: Source control is disabled
-[2020.10.28-20.55.40:472][  0]SourceControl: Source control is disabled
-[2020.10.28-20.55.40:475][  0]SourceControl: Source control is disabled
-[2020.10.28-20.55.40:481][  0]SourceControl: Source control is disabled
-[2020.10.28-20.55.40:499][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.28-20.55.40:500][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.28-20.55.40:767][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.28-20.55.40:791][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.28-20.55.40:791][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.28-20.55.40:854][  0]LogOcInput: OculusInput pre-init called
-[2020.10.28-20.55.40:867][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.28-20.55.40:867][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.28-20.55.40:944][  0]LogEngine: Initializing Engine...
-[2020.10.28-20.55.40:945][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.28-20.55.40:945][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.28-20.55.40:947][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.28-20.55.41:103][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.28-20.55.41:113][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.28-20.55.41:113][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D94B5B1C00), frame # 0
-[2020.10.28-20.55.41:114][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D94B58BB00), frame # 0
-[2020.10.28-20.55.41:134][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.28-20.55.41:135][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.28-20.55.41:135][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.28-20.55.41:135][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.28-20.55.41:149][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.28-20.55.41:149][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.28-20.55.41:217][  0]LogAudioMixer: Display: Using Audio Device Speakers (CD002)
-[2020.10.28-20.55.41:220][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.28-20.55.41:223][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.28-20.55.41:223][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.28-20.55.41:224][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.28-20.55.41:225][  0]LogInit: FAudioDevice initialized.
-[2020.10.28-20.55.41:225][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.28-20.55.41:509][  0]LogDerivedDataCache: Saved boot cache 0.28s 75MB C:/Users/Subhana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.28-20.55.41:514][  0]LogInit: Texture streaming: Enabled
-[2020.10.28-20.55.41:532][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.28-20.55.41:532][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.28-20.55.41:533][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.28-20.55.41:604][  0]LogInit: Transaction tracking system initialized
-[2020.10.28-20.55.41:630][  0]BlueprintLog: New page: Editor Load
-[2020.10.28-20.55.41:708][  0]LocalizationService: Localization service is disabled
-[2020.10.28-20.55.41:800][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.28-20.55.41:801][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.28-20.55.41:893][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.28-20.55.41:893][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.28-20.55.42:039][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Content/' took 0.01s
-[2020.10.28-20.55.42:332][  0]SourceControl: Source control is disabled
-[2020.10.28-20.55.42:332][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.684
-[2020.10.28-20.55.42:332][  0]Cmd: MAP LOAD FILE="../../../../../cool/TwinStickShooter/Content/Levels/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.28-20.55.42:332][  0]LightingResults: New page: Lighting Build
-[2020.10.28-20.55.42:333][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.28-20.55.42:333][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.28-20.55.42:334][  0]MapCheck: New page: Map Check
-[2020.10.28-20.55.42:334][  0]LightingResults: New page: Lighting Build
-[2020.10.28-20.55.42:343][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D94B5B1C00), frame # 0
-[2020.10.28-20.55.42:343][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D94B58BB00), frame # 0
-[2020.10.28-20.55.42:344][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
-[2020.10.28-20.55.43:408][  0]LogAIModule: Creating AISystem for world ArenaMap
-[2020.10.28-20.55.43:408][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D93FCABE00), frame # 0
-[2020.10.28-20.55.43:408][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D93C81F380), frame # 0
-[2020.10.28-20.55.43:414][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.28-20.55.43:450][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2020.10.28-20.55.43:452][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.28-20.55.43:453][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.158ms to complete.
-[2020.10.28-20.55.43:453][  0]LogFileHelpers: Loading map 'ArenaMap' took 1.120
-[2020.10.28-20.55.43:455][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.807
-[2020.10.28-20.55.43:645][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.28-20.55.43:656][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.28-20.55.43:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.28-20.55.43:679][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.28-20.55.43:687][  0]LogCollectionManager: Loaded 0 collections in 0.002187 seconds
-[2020.10.28-20.55.43:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Saved/Collections/' took 0.00s
-[2020.10.28-20.55.43:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Content/Developers/Subhana/Collections/' took 0.00s
-[2020.10.28-20.55.43:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Content/Collections/' took 0.00s
-[2020.10.28-20.55.43:715][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 3428 classes and 823 folders.
-[2020.10.28-20.55.43:738][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.10.28-20.55.44:418][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.10.28-20.55.44:419][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2020.10.28-20.55.44:461][  0]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.28-20.55.44:463][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.28-20.55.44:469][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.28-20.55.44:567][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.10.28-20.55.45:236][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.10.28-20.55.45:236][  0]LogLoad: (Engine Initialization) Total time: 11.59 seconds
-[2020.10.28-20.55.45:236][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.28-20.55.45:285][  0]LogAssetRegistry: Asset discovery search completed in 6.4496 seconds
-[2020.10.28-20.55.45:290][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.10.28-20.55.45:291][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.28-20.55.45:328][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.28-20.55.48:520][  3]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.10.28-20.56.14:617][189]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/AnimationAssets/CharacterAnimBP.CharacterAnimBP
-[2020.10.28-20.56.14:629][189]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2020.10.28-20.56.14:840][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2020.10.28-20.56.14:842][189]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2020.10.28-20.56.15:145][189]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
-[2020.10.28-20.56.16:500][189]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2020.10.28-20.56.16:989][189]LogSlate: Took 0.000415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.10.28-20.56.17:087][189]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2020.10.28-20.57.28:375][703]BlueprintLog: New page: Compile CharacterAnimBP
-[2020.10.28-20.57.28:520][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2020.10.28-20.57.29:821][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/CharacterAnimBP" FILE="../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset" SILENT=true
-[2020.10.28-20.57.30:053][708]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/CharacterAnimBP9A6AA42D4C648966111742A7AAA571AB.tmp' to '../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset'
-[2020.10.28-20.57.30:072][708]AssetCheck: New page: Asset Save: CharacterAnimBP
-[2020.10.28-20.57.30:072][708]LogContentValidation: Display: Validating AnimBlueprint /Game/AnimationAssets/CharacterAnimBP.CharacterAnimBP
-[2020.10.28-21.00.59:705][941]BlueprintLog: New page: Compile CharacterAnimBP
-[2020.10.28-21.00.59:784][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2020.10.28-21.01.01:312][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/CharacterAnimBP" FILE="../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset" SILENT=true
-[2020.10.28-21.01.01:473][948]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/CharacterAnimBPE9B83C5E45B0FEBFC6A865A5C66FB4AB.tmp' to '../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset'
-[2020.10.28-21.01.01:499][948]AssetCheck: New page: Asset Save: CharacterAnimBP
-[2020.10.28-21.01.01:499][948]LogContentValidation: Display: Validating AnimBlueprint /Game/AnimationAssets/CharacterAnimBP.CharacterAnimBP
-[2020.10.28-21.01.42:319][222]BlueprintLog: New page: Compile CharacterAnimBP
-[2020.10.28-21.01.42:384][222]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
-[2020.10.28-21.01.44:265][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/CharacterAnimBP" FILE="../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset" SILENT=true
-[2020.10.28-21.01.44:354][231]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/CharacterAnimBPEB83F5AF4705EB88F01F41B6B425691C.tmp' to '../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset'
-[2020.10.28-21.01.44:369][231]AssetCheck: New page: Asset Save: CharacterAnimBP
-[2020.10.28-21.01.44:370][231]LogContentValidation: Display: Validating AnimBlueprint /Game/AnimationAssets/CharacterAnimBP.CharacterAnimBP
-[2020.10.28-21.02.45:391][517]BlueprintLog: New page: Compile CharacterAnimBP
-[2020.10.28-21.02.45:472][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
-[2020.10.28-21.02.47:128][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/CharacterAnimBP" FILE="../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset" SILENT=true
-[2020.10.28-21.02.47:291][524]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/CharacterAnimBPBEA056D94ACAE6B98C65F4A42589A463.tmp' to '../../../../../cool/TwinStickShooter/Content/AnimationAssets/CharacterAnimBP.uasset'
-[2020.10.28-21.02.47:318][524]AssetCheck: New page: Asset Save: CharacterAnimBP
-[2020.10.28-21.02.47:318][524]LogContentValidation: Display: Validating AnimBlueprint /Game/AnimationAssets/CharacterAnimBP.CharacterAnimBP
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.28-21.14.20:775][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.28-21.14.20:776][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:776][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:778][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.28-21.14.20:778][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.28-21.14.20:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.28-21.14.20:780][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.28-21.14.20:780][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.28-21.14.20:780][  0]LogHAL: Display: Platform has ~ 8 GB [8472018944 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.28-21.14.20:780][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.28-21.14.20:780][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.28-21.14.20:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.28-21.14.20:781][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.28-21.14.20:782][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.28-21.14.20:782][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.28-21.14.20:782][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.28-21.14.20:782][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.28-21.14.20:782][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Subhana/cool/TwinStickShooter/Saved/Config/Windows/Engine.ini]
+[2020.10.28-21.14.20:782][  0]LogInit: Computer: DESKTOP-J0AMKS7
+[2020.10.28-21.14.20:782][  0]LogInit: User: Subhana
+[2020.10.28-21.14.20:782][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.10.28-21.14.20:782][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.28-21.14.20:782][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.10.28-21.14.20:782][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.28-21.14.20:782][  0]LogMemory: Process Physical Memory: 113.05 MB used, 113.05 MB peak
+[2020.10.28-21.14.20:782][  0]LogMemory: Process Virtual Memory: 95.07 MB used, 95.07 MB peak
+[2020.10.28-21.14.20:782][  0]LogMemory: Physical Memory: 5851.86 MB used,  2227.68 MB free, 8079.55 MB total
+[2020.10.28-21.14.20:782][  0]LogMemory: Virtual Memory: 5126.78 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.10.28-21.14.20:789][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.28-21.14.20:821][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.28-21.14.20:822][  0]LogInit: Using OS detected language (en-US).
+[2020.10.28-21.14.20:822][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.28-21.14.20:827][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.28-21.14.21:055][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.28-21.14.21:094][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.28-21.14.21:094][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.28-21.14.21:262][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.28-21.14.21:262][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.28-21.14.21:262][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.28-21.14.21:262][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.28-21.14.21:269][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2020.10.28-21.14.21:269][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.10.28-21.14.21:272][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.28-21.14.21:272][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.28-21.14.21:272][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.28-21.14.21:279][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.28-21.14.21:279][  0]LogD3D11RHI:     GPU DeviceId: 0x152 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.28-21.14.21:279][  0]LogWindows: EnumDisplayDevices:
+[2020.10.28-21.14.21:279][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2020.10.28-21.14.21:279][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2020.10.28-21.14.21:279][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2020.10.28-21.14.21:279][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2020.10.28-21.14.21:279][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
+[2020.10.28-21.14.21:279][  0]LogD3D11RHI:      Driver Date: 12-21-2015
+[2020.10.28-21.14.21:280][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2020.10.28-21.14.21:284][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.28-21.14.21:284][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.28-21.14.21:297][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2020.10.28-21.14.21:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.28-21.14.21:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.28-21.14.21:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.28-21.14.21:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.28-21.14.21:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.28-21.14.21:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.28-21.14.21:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.28-21.14.21:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.28-21.14.21:771][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.28-21.14.21:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.28-21.14.21:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.28-21.14.21:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.28-21.14.21:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.28-21.14.21:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.28-21.14.21:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.28-21.14.21:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.28-21.14.21:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.28-21.14.21:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.28-21.14.21:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.28-21.14.21:894][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.28-21.14.21:902][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.28-21.14.21:969][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../cool/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/13376/).
+[2020.10.28-21.14.21:969][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Subhana/AppData/Local/Temp/UnrealShaderWorkingDir/A67323EE41D685A73A746989137F625E/'.
+[2020.10.28-21.14.21:970][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.28-21.14.21:970][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.28-21.14.21:970][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.28-21.14.22:892][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.28-21.14.22:970][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Subhana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.28-21.14.22:970][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Subhana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.28-21.14.22:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../cool/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.28-21.14.22:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.28-21.14.22:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../cool/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.28-21.14.22:970][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.28-21.14.22:983][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.28-21.14.22:983][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.28-21.14.22:983][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.28-21.14.22:984][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Subhana/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.28-21.14.22:984][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.28-21.14.22:984][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.28-21.14.23:051][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.28-21.14.23:051][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.28-21.14.23:083][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2020.10.28-21.14.23:402][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.28-21.14.23:541][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.28-21.14.23:541][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.28-21.14.23:541][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.28-21.14.23:541][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.28-21.14.23:541][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.28-21.14.23:559][  0]LogNetVersion: TwinStickShooter 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 395143884)
+[2020.10.28-21.14.24:132][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027058BD82C0), frame # 0
+[2020.10.28-21.14.24:132][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027058B26AC0), frame # 0
+[2020.10.28-21.14.24:134][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027058B88A00), frame # 0
+[2020.10.28-21.14.24:212][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.069923 seconds
+[2020.10.28-21.14.24:218][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.28-21.14.24:218][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.28-21.14.24:218][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.28-21.14.24:613][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.28-21.14.24:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.28-21.14.24:754][  0]SourceControl: Source control is disabled
+[2020.10.28-21.14.24:754][  0]SourceControl: Source control is disabled
+[2020.10.28-21.14.24:757][  0]SourceControl: Source control is disabled
+[2020.10.28-21.14.24:760][  0]SourceControl: Source control is disabled
+[2020.10.28-21.14.24:766][  0]SourceControl: Source control is disabled
+[2020.10.28-21.14.24:781][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.28-21.14.24:782][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.28-21.14.25:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.28-21.14.25:065][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.28-21.14.25:065][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.28-21.14.25:130][  0]LogOcInput: OculusInput pre-init called
+[2020.10.28-21.14.25:143][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.28-21.14.25:143][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.28-21.14.25:217][  0]LogEngine: Initializing Engine...
+[2020.10.28-21.14.25:218][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.28-21.14.25:218][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.28-21.14.25:219][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.28-21.14.25:370][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.28-21.14.25:380][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.28-21.14.25:381][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002705B121C00), frame # 0
+[2020.10.28-21.14.25:381][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002705B0F7B00), frame # 0
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.28-21.14.25:403][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.28-21.14.25:403][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.28-21.14.25:403][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.28-21.14.25:417][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.28-21.14.25:417][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.28-21.14.25:583][  0]LogAudioMixer: Display: Using Audio Device Speakers (CD002)
+[2020.10.28-21.14.25:587][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.28-21.14.25:591][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.28-21.14.25:591][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.28-21.14.25:592][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.28-21.14.25:594][  0]LogInit: FAudioDevice initialized.
+[2020.10.28-21.14.25:594][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.28-21.14.26:623][  0]LogDerivedDataCache: Saved boot cache 1.03s 75MB C:/Users/Subhana/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.28-21.14.26:637][  0]LogInit: Texture streaming: Enabled
+[2020.10.28-21.14.26:667][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.28-21.14.26:668][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.28-21.14.26:718][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.28-21.14.26:793][  0]LogInit: Transaction tracking system initialized
+[2020.10.28-21.14.26:816][  0]BlueprintLog: New page: Editor Load
+[2020.10.28-21.14.26:893][  0]LocalizationService: Localization service is disabled
+[2020.10.28-21.14.26:985][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.28-21.14.26:985][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.28-21.14.27:076][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.28-21.14.27:076][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.28-21.14.27:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Content/' took 0.01s
+[2020.10.28-21.14.27:485][  0]SourceControl: Source control is disabled
+[2020.10.28-21.14.27:485][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.777
+[2020.10.28-21.14.27:485][  0]Cmd: MAP LOAD FILE="../../../../../cool/TwinStickShooter/Content/Levels/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-21.14.27:485][  0]LightingResults: New page: Lighting Build
+[2020.10.28-21.14.27:486][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.14.27:486][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.14.27:486][  0]MapCheck: New page: Map Check
+[2020.10.28-21.14.27:486][  0]LightingResults: New page: Lighting Build
+[2020.10.28-21.14.27:495][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002705B121C00), frame # 0
+[2020.10.28-21.14.27:495][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002705B0F7B00), frame # 0
+[2020.10.28-21.14.27:496][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.10.28-21.14.27:855][  0]LogAIModule: Creating AISystem for world ArenaMap
+[2020.10.28-21.14.27:855][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000270673BFE00), frame # 0
+[2020.10.28-21.14.27:855][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002704F614900), frame # 0
+[2020.10.28-21.14.27:860][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-21.14.27:896][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.10.28-21.14.27:898][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-21.14.27:898][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.241ms to complete.
+[2020.10.28-21.14.27:899][  0]LogFileHelpers: Loading map 'ArenaMap' took 0.413
+[2020.10.28-21.14.27:901][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.193
+[2020.10.28-21.14.28:069][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-21.14.28:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-21.14.28:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-21.14.28:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-21.14.28:110][  0]LogCollectionManager: Loaded 0 collections in 0.002084 seconds
+[2020.10.28-21.14.28:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Saved/Collections/' took 0.00s
+[2020.10.28-21.14.28:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Content/Developers/Subhana/Collections/' took 0.00s
+[2020.10.28-21.14.28:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Subhana/cool/TwinStickShooter/Content/Collections/' took 0.00s
+[2020.10.28-21.14.28:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3428 classes and 823 folders.
+[2020.10.28-21.14.28:131][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.28-21.14.28:198][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.28-21.14.28:199][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.10.28-21.14.28:235][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.28-21.14.28:238][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.28-21.14.28:244][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.28-21.14.28:341][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.28-21.14.29:018][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.10.28-21.14.29:018][  0]LogLoad: (Engine Initialization) Total time: 11.31 seconds
+[2020.10.28-21.14.29:018][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.28-21.14.29:069][  0]LogAssetRegistry: Asset discovery search completed in 5.9868 seconds
+[2020.10.28-21.14.29:074][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.10.28-21.14.29:076][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.28-21.14.29:112][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-21.15.27:138][395]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-21.15.27:167][395]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/HUD.HUD
+[2020.10.28-21.15.27:507][395]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2020.10.28-21.15.30:470][395]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.28-21.15.42:887][463]LogHttp: Warning: 0000027091A9B900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2BD1C895-4AB5-054D-CFA2-56BE9450B381%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=062e1ca54ce28b77b26a609fe8b09376%7C1a54dc8bce224992a01d1b5500699d1a%7C00829e95-bbc6-4ac9-bc15-f93b00c7d30f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.10.28-21.15.42:887][463]LogHttp: Warning: 0000027091A9B900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.10.28-21.15.42:887][463]LogHttp: Warning: 0000027091A9B900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.10.28-21.15.42:887][463]LogHttp: Warning: 0000027091A9B900: libcurl info message cache 1 (Closing connection 0)
+[2020.10.28-21.15.42:899][464]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2BD1C895-4AB5-054D-CFA2-56BE9450B381%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=062e1ca54ce28b77b26a609fe8b09376%7C1a54dc8bce224992a01d1b5500699d1a%7C00829e95-bbc6-4ac9-bc15-f93b00c7d30f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.10.28-21.17.10:700][123]LogSlate: Took 0.118100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.10.28-21.21.48:229][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset" SILENT=true
+[2020.10.28-21.21.48:268][793]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/HUD434BE4794B6F868A2CC0F8A009BE6126.tmp' to '../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset'
+[2020.10.28-21.21.48:294][793]AssetCheck: New page: Asset Save: HUD
+[2020.10.28-21.21.48:294][793]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/HUD.HUD
+[2020.10.28-21.21.49:212][800]BlueprintLog: New page: Compile HUD
+[2020.10.28-21.21.49:317][800]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2020.10.28-21.25.20:072][340]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.28-21.25.47:631][533]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.28-21.26.43:599][863]LogSlate: Window 'Color Picker' being destroyed
+[2020.10.28-21.26.48:504][892]BlueprintLog: New page: Compile HUD
+[2020.10.28-21.26.48:544][892]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2020.10.28-21.26.49:921][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset" SILENT=true
+[2020.10.28-21.26.49:958][901]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/HUD8BD17FA148798C7A97BC0F845455EF64.tmp' to '../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset'
+[2020.10.28-21.26.49:975][901]AssetCheck: New page: Asset Save: HUD
+[2020.10.28-21.26.49:976][901]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/HUD.HUD
+[2020.10.28-21.29.17:755][776]BlueprintLog: New page: Compile HUD
+[2020.10.28-21.29.17:795][776]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2020.10.28-21.29.18:913][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset" SILENT=true
+[2020.10.28-21.29.18:946][783]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/HUDAF966C5D45258231A145D9AC5F4F100F.tmp' to '../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset'
+[2020.10.28-21.29.18:964][783]AssetCheck: New page: Asset Save: HUD
+[2020.10.28-21.29.18:964][783]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/HUD.HUD
+[2020.10.28-21.38.30:351][525]LogSlate: Window 'HUD' being destroyed
+[2020.10.28-21.38.30:789][525]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.38.30:789][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.38.30:831][525]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.38.30:831][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.38.32:891][538]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/HeroCharacter.HeroCharacter
+[2020.10.28-21.38.34:423][539]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.28-21.39.49:074][438]BlueprintLog: New page: Compile HeroCharacter
+[2020.10.28-21.39.49:274][438]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2020.10.28-21.39.50:313][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../cool/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2020.10.28-21.39.50:501][443]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/HeroCharacter1480BCA64567A1EDDF4CE095D14BB3FD.tmp' to '../../../../../cool/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2020.10.28-21.39.50:527][443]AssetCheck: New page: Asset Save: HeroCharacter
+[2020.10.28-21.39.50:527][443]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HeroCharacter.HeroCharacter
+[2020.10.28-21.40.09:031][518]LogSlate: Window 'HeroCharacter' being destroyed
+[2020.10.28-21.40.09:244][518]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.40.09:245][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.40.11:952][531]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/HUD.HUD
+[2020.10.28-21.43.09:001][618]BlueprintLog: New page: Compile HUD
+[2020.10.28-21.43.09:031][618]LogBlueprint: Error: [Compiler HUD] Binding: Property ' /Script/UMG.ProgressBar:PercentDelegate ' on Widget ' health ': Member:Health Bar Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2020.10.28-21.43.09:098][618]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.10.28-21.43.09:185][618]LogSlate: Took 0.014868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.28-21.44.34:570][551]BlueprintLog: New page: Compile HUD
+[2020.10.28-21.44.34:617][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.10.28-21.44.35:706][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD" FILE="../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset" SILENT=true
+[2020.10.28-21.44.35:878][558]LogSavePackage: Moving '../../../../../cool/TwinStickShooter/Saved/HUDE746EF5F4AAA47FAEE7E45BC502B8827.tmp' to '../../../../../cool/TwinStickShooter/Content/Blueprints/HUD.uasset'
+[2020.10.28-21.44.35:895][558]AssetCheck: New page: Asset Save: HUD
+[2020.10.28-21.44.35:896][558]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/HUD.HUD
+[2020.10.28-21.44.54:868][647]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.28-21.44.54:967][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.28-21.44.55:007][647]PIE: New page: PIE session: ArenaMap (Oct 28, 2020, 1:44:54 PM)
+[2020.10.28-21.44.55:031][647]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.28-21.44.55:078][647]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.28-21.44.55:117][647]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ArenaMap
+[2020.10.28-21.44.55:180][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063451s)
+[2020.10.28-21.44.55:191][647]LogAIModule: Creating AISystem for world ArenaMap
+[2020.10.28-21.44.55:191][647]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027004CB9600), frame # 11647
+[2020.10.28-21.44.55:191][647]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000270A5D73240), frame # 11647
+[2020.10.28-21.44.55:192][647]LogPlayLevel: PIE: World Init took: (0.011514s)
+[2020.10.28-21.44.55:193][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ArenaMap.ArenaMap to /Game/Levels/UEDPIE_0_ArenaMap.ArenaMap (0.075465s)
+[2020.10.28-21.44.55:231][647]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.28-21.44.55:235][647]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.28-21.44.55:235][647]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.28-21.44.55:236][647]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.28-21.44.55:236][647]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.28-21.44.55:240][647]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.28-21.44.55:240][647]LogAudioMixer: Display: 1: FrontRight
+[2020.10.28-21.44.55:260][647]LogAudioMixer: Display: Using Audio Device Speakers (CD002)
+[2020.10.28-21.44.55:260][647]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.28-21.44.55:260][647]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.28-21.44.55:260][647]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.28-21.44.55:261][647]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.28-21.44.55:276][647]LogInit: FAudioDevice initialized.
+[2020.10.28-21.44.55:366][647]LogLoad: Game class is 'TwinStickMode_C'
+[2020.10.28-21.44.55:371][647]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2020.10.28-17.44.55
+[2020.10.28-21.44.55:383][647]LogWorld: Bringing up level for play took: 0.013968
+[2020.10.28-21.44.55:395][647]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.28-21.44.55:672][647]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 20 classes and 0 folders.
+[2020.10.28-21.44.55:898][647]PIE: Server logged in
+[2020.10.28-21.44.55:907][647]PIE: Play in editor total start time 0.982 seconds.
+[2020.10.28-21.44.59:538][669]LogSlate: Window 'HUD' being destroyed
+[2020.10.28-21.44.59:589][669]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.44.59:589][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.44.59:607][669]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.44.59:607][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.45.07:423][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-21.45.07:423][717]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_ArenaMap
+[2020.10.28-21.45.07:423][717]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-21.45.07:424][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.45.07:495][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.28-21.45.07:513][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-21.45.07:568][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-21.45.07:612][717]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000270A5D73240), frame # 11717
+[2020.10.28-21.45.07:612][717]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027004CB9600), frame # 11717
+[2020.10.28-21.45.07:673][717]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.10.28-21.45.07:716][718]LogPlayLevel: Display: Destroying online subsystem :Context_10
